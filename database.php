@@ -1,6 +1,6 @@
 <?php
 
-$connection = new mysqli('localhost', 'root', '', 'tasks-database');
+$connection = new mysqli('localhost', 'root', '', 'database');
 //  $mysqli->set_charset("utf8");
  if ($connection->connect_errno) {
      die('fail');
